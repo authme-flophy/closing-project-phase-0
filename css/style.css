@@ -1,0 +1,76 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#header_section {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#dark_mode {
+  border-radius: 5px;
+  border: none;
+  padding: .5rem 1rem;
+  font-size 1.5rem;
+  font-weight: bold;
+  background-color: white;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+#para-section {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 400;
+}
+
+.para-section p {
+  margin: 1rem;
+}
+
+/* css styles for dark mode */
+
+#dark_header_section {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+
+#dark_mode_black {
+  border-radius: 5px;
+  border: none;
+  padding: .5rem 1rem;
+  font-size 1.5rem;
+  font-weight: bold;
+  background-color: black;
+  color: #fff;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+#dark-para-section {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 400;
+  color: #fff;
+  background-color: black;
+}
+
